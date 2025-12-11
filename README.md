@@ -1,3 +1,6 @@
+Hi This is Cion! I am making my portfolio
+
+
 # Portfolio Instructions
 
 This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office.
