@@ -12,7 +12,8 @@ pdf: /assets/Fluids final project.pdf
 
 # Fluid Mechanics Dissection: Paddle Board Air Pump
 
-## 🔹 One-Screen Summary (Recruiter View)
+
+## 🔹 One-Screen Summary 
 
 My team dissected and analyzed a dual-chamber manual air pump to understand how fluid mechanics, geometry, and operating modes affect performance and user effort.
 I led the analytical modeling and design trade studies, using first-principles fluid mechanics to quantify flow regimes, pressure losses, and ergonomic scaling laws.
