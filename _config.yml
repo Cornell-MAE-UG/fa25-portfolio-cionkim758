@@ -13,7 +13,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Cion Kim
 description              : Cion Kim - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+url                      : "https://cornell-mae-ug.github.io"
+baseurl                  : "/fa25-portfolio-cionkim758" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal

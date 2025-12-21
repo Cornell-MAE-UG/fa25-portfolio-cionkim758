@@ -9,9 +9,12 @@ image: /assets/images/FEA Wrench Total Deformation.png
 
 # Finite Element Analysis of a Torque Wrench
 
+
+
+
 **MAE 3270 — Mechanics of Engineering Materials**
 
-## 🔹 One-Screen Summary (Recruiter View)
+## 🔹 One-Screen Summary 
 
 We analyzed the structural response of a torque wrench under applied loading to evaluate deformation and energy storage.
 I led the finite element modeling, boundary condition setup, and result interpretation, connecting FEA outputs to beam theory and strain-energy concepts from mechanics of materials.
