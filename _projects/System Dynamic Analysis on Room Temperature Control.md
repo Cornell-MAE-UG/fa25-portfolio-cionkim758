@@ -12,8 +12,8 @@ pdf: /assets/System Dynamics Final Report.pdf
 
 ## 🔹 One-Screen Summary 
 
-**We** modeled and controlled the thermal dynamics of a room to study how heating input, environmental losses, and feedback control affect temperature regulation.
-**I** owned the **first-principles modeling**, deriving the governing ODE, state-space representation, and block-diagram structure used for both open-loop analysis and closed-loop controller design.
+We modeled and controlled the thermal dynamics of a room to study how heating input, environmental losses, and feedback control affect temperature regulation.
+I owned the **first-principles modeling**, deriving the governing ODE, state-space representation, and block-diagram structure used for both open-loop analysis and closed-loop controller design.
 
 **Key outcomes:**
 
@@ -26,7 +26,7 @@ pdf: /assets/System Dynamics Final Report.pdf
 
 ## 1. System Overview (Team)
 
-**We** studied room temperature regulation as a dynamic system that balances heat input from a heater and heat loss to the environment. The system is simple enough to model analytically, yet rich enough to demonstrate key concepts in dynamics and control.
+We studied room temperature regulation as a dynamic system that balances heat input from a heater and heat loss to the environment. The system is simple enough to model analytically, yet rich enough to demonstrate key concepts in dynamics and control.
 
 The full project included:
 
@@ -39,7 +39,7 @@ The full project included:
 
 ## 2. Physical Modeling & Assumptions (My Contribution)
 
-**I** developed the core thermal model using **energy conservation** and lumped-parameter assumptions.
+I developed the core thermal model using **energy conservation** and lumped-parameter assumptions.
 
 **System interpretation:**
 

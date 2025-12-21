@@ -25,6 +25,7 @@ I led the analytical modeling and design trade studies, using first-principles f
 * Cylinder diameter scales handle force with **r²**, explaining multi-mode design
 * Human ergonomics, not flow losses, dominate design constraints
 
+![Photo of Air Pimp Dissection]({{ "/assets/images/Dissection.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 ---
 
 ## 1. System Overview & Dissection (Team)
