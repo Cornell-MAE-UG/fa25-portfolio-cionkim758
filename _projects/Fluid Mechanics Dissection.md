@@ -12,7 +12,7 @@ pdf: /assets/Fluids final project.pdf
 
 # Fluid Mechanics Dissection: Paddle Board Air Pump
 
-
+---
 ## 🔹 One-Screen Summary 
 
 My team dissected and analyzed a dual-chamber manual air pump to understand how fluid mechanics, geometry, and operating modes affect performance and user effort.
@@ -150,7 +150,7 @@ Hose pressure losses are **orders of magnitude smaller** than paddle board opera
 
 ## 7. Design Trade Studies (My Contribution)
 
-### 🔺 Cylinder Diameter Scaling
+### Cylinder Diameter Scaling
 
 ```text
 Stroke volume: V ∝ r²
@@ -160,11 +160,11 @@ Handle force: F = P π r²
 * 2× diameter → 4× air per stroke
 * 2× diameter → 4× handle force
 
-➡️ Explains why high-pressure mode uses only one cylinder.
+-> Explains why high-pressure mode uses only one cylinder.
 
 ---
 
-### 🔺 Hose Geometry Effects
+### Hose Geometry Effects
 
 ```text
 Δp_bend = K (ρ U² / 2)
@@ -176,7 +176,7 @@ Handle force: F = P π r²
 
 ---
 
-### 🔺 Fluid Viscosity Sensitivity
+### Fluid Viscosity Sensitivity
 
 ```text
 Re ∝ 1 / μ
@@ -186,7 +186,7 @@ F ∝ μ
 * Air: μ ≈ 1.8×10⁻⁵ Pa·s → feasible
 * High-viscosity fluids → forces increase by orders of magnitude
 
-➡️ System fundamentally relies on low-viscosity working fluid.
+-> System fundamentally relies on low-viscosity working fluid.
 
 ---
 

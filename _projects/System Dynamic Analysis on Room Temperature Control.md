@@ -10,6 +10,8 @@ pdf: /assets/System Dynamics Final Report.pdf
 
 # Room Temperature Control — Dynamic Modeling & Control
 
+---
+
 ## 🔹 One-Screen Summary 
 
 We modeled and controlled the thermal dynamics of a room to study how heating input, environmental losses, and feedback control affect temperature regulation.
