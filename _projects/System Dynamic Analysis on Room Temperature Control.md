@@ -14,15 +14,15 @@ pdf: /assets/System Dynamics Final Report.pdf
 
 ## 🔹 One-Screen Summary 
 
-We modeled and controlled the thermal dynamics of a room to study how heating input, environmental losses, and feedback control affect temperature regulation.
+We **modeled and controlled the thermal dynamics of a room** to study how heating input, environmental losses, and feedback control affect temperature regulation.
 I owned the **first-principles modeling**, deriving the governing ODE, state-space representation, and block-diagram structure used for both open-loop analysis and closed-loop controller design.
 
 **Key outcomes:**
 
-* Derived a physically grounded first-order thermal model
-* Built state-space and transfer-function representations
-* Identified how thermal resistance and capacitance shape system response
-* Provided the plant model used for PI controller design and simulation
+* Derived a **physically grounded first-order thermal model**
+* Built **state-space and transfer-function representations**
+* Identified how **thermal resistance and capacitance shape system response**
+* Provided the **plant model used for PI controller design and simulation**
 
 ---
 
@@ -38,10 +38,9 @@ The full project included:
 * MATLAB and Simulink simulation
 
 ---
+## 2. Physical Modeling & Assumptions 
 
-## 2. Physical Modeling & Assumptions (My Contribution)
-
-I developed the core thermal model using **energy conservation** and lumped-parameter assumptions.
+The following are what I contributed to the project. I developed the core thermal model using **energy conservation** and lumped-parameter assumptions.
 
 **System interpretation:**
 
@@ -92,7 +91,7 @@ This equation forms the **plant model** for all later analysis and control desig
 
 ---
 
-## 4. State-Space Representation (My Contribution)
+## 4. State-Space Representation 
 
 ```text
 State:
