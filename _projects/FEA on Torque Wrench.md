@@ -1,9 +1,10 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: FEA on Torque Wrench 
+description: Advanced CAD and FEA Project
+technologies: [Autodesk Fusion, ANSYS]
+image: /assets/images/FEA Wrench Total Deformation.png
+image: /assets/images/FEA Wrench Strain Energy.png
 ---
 
 For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
