@@ -3,14 +3,14 @@ layout: project
 title: System Dynamic Analysis on Room Temperature Control
 description: Setting up and Analyzing the PID control for closed loop and open loop models
 technologies: [Matlab]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/System Dynamics Modeling.png
 pdf: /assets/System Dynamics Final Report.pdf
 ---
 
 
 # Room Temperature Control — Dynamic Modeling & Control
 
-## 🔹 One-Screen Summary (Recruiter View)
+## 🔹 One-Screen Summary 
 
 **We** modeled and controlled the thermal dynamics of a room to study how heating input, environmental losses, and feedback control affect temperature regulation.
 **I** owned the **first-principles modeling**, deriving the governing ODE, state-space representation, and block-diagram structure used for both open-loop analysis and closed-loop controller design.

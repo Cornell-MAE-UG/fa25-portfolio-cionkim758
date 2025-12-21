@@ -3,7 +3,7 @@ layout: project
 title: Fluid Mechanics Dissection
 description: Dissecting and analyzing fluid flow of an air pump for paddle boards
 technologies: [Fusion, MATLAB]
-image: /assets/images/function-graph.png
+image: /assets/images/Fluids dissection.png
 pdf: /assets/Fluids final project.pdf
 ---
 
