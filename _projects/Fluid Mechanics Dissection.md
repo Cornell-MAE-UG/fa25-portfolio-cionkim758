@@ -12,7 +12,7 @@ pdf: /assets/Fluids final project.pdf
 
 # Fluid Mechanics Dissection: Paddle Board Air Pump
 
----
+
 ## 🔹 One-Screen Summary 
 
 My team dissected and analyzed a dual-chamber manual air pump to understand how fluid mechanics, geometry, and operating modes affect performance and user effort.
@@ -186,7 +186,7 @@ F ∝ μ
 * Air: μ ≈ 1.8×10⁻⁵ Pa·s → feasible
 * High-viscosity fluids → forces increase by orders of magnitude
 
--> System fundamentally relies on low-viscosity working fluid.
+--> System fundamentally relies on low-viscosity working fluid.
 
 ---
 
