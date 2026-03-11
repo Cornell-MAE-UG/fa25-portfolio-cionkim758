@@ -27,7 +27,13 @@ Key outcomes:
 • Heat flux is limited by allowable material temperature  
 • Geometry and material properties strongly influence heat transfer behavior
 
-![Pdf of Assignment]({{ "/assets/images/HeatT_HW.pdf" | relative_url }}){: .inline-image-r style="width: 200px"}
+## Full Assignment
+
+<iframe 
+  src="{{ '/assets/HeatT_HW.pdf' | relative_url }}" 
+  width="100%" 
+  height="800px">
+</iframe>
 
 ---
 
