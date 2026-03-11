@@ -5,9 +5,10 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-You can view or download my full CV below.  
+You can view or download my full CV here.[Download my CV]({{ "/assets/Cion Kim Resume.pdf" | relative_url }}) in PDF format.
+
 This page highlights my background in mechanical design, analysis, and testing across automotive, aerospace, and hardware systems.
-[Download my CV]({{ "/assets/Cion Kim Resume.pdf" | relative_url }}) in PDF format.
+
 
 
 **Email:** [ck758@cornell.edu](mailto:ck758@cornell.edu) | | | **Phone:** +202 793 0392
