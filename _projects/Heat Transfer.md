@@ -6,8 +6,8 @@ image: /assets/images/HeatT_HW.png
 pdf: /assets/HeatT_HW.pdf
 ---
 
+---
 ## Overview
-
 
 This project analyzes **steady-state heat transfer** in two engineering systems:
 
