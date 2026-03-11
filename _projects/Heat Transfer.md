@@ -6,26 +6,26 @@ image: /assets/images/HeatT_HW.png
 pdf: /assets/HeatT_HW.pdf
 ---
 
----
 ## Overview
 
 This project analyzes **steady-state heat transfer** in two engineering systems:
 
-1. A **cylindrical electric water heater** losing heat to the surrounding air through convection  
+1. A **cylindrical electric water heater** losing heat to surrounding air through convection  
 2. A **thin-film heater embedded in a wall** transferring heat through conduction and convection  
 
-The objective was to apply fundamental heat transfer principles to determine:
-- Required heating power
-- Effects of insulation
-- Limits imposed by material temperature constraints
+The objective was to determine:
+
+- Required heating power  
+- Effects of insulation  
+- Limits imposed by material temperature constraints  
 
 ---
 
 ## Key Results
 
 - Insulation **significantly reduces heat loss and required power**
-- Conduction and convection processes can be modeled using **thermal resistance networks**
-- **Maximum heat flux is limited by allowable material temperature**
+- Conduction and convection can be modeled using **thermal resistance networks**
+- **Maximum heat flux is limited by allowable heater temperature**
 - **Geometry and material properties strongly influence heat transfer**
 
 ---
@@ -40,179 +40,149 @@ The objective was to apply fundamental heat transfer principles to determine:
 
 ---
 
-# Modeling Assumptions
+## Modeling Assumptions
 
-To simplify analysis, the systems were modeled using standard steady-state assumptions:
+The systems were analyzed using standard steady-state assumptions:
 
-- Steady-state operation
-- Radiation heat transfer neglected
-- Heater wall resistance negligible
-- Heat transfer dominated by **conduction and convection**
-- **One-dimensional heat transfer** through solid layers
+- Steady-state operation  
+- Radiation heat transfer neglected  
+- Heater wall resistance negligible  
+- Heat transfer dominated by **conduction and convection**  
+- **One-dimensional heat transfer** through solid layers  
 
 These assumptions allow the system to be modeled using **first-principles heat transfer equations**.
 
 ---
 
-# Governing Heat Transfer Equations
+## Governing Heat Transfer Equations
 
-## Convection — Newton’s Law of Cooling
+### Convection — Newton’s Law of Cooling
 
-\[
-q = hA(T_s - T_\infty)
-\]
+**q = hA (Tₛ − T∞)**
 
 Where:
 
-- \(h\) = heat transfer coefficient  
-- \(A\) = surface area  
-- \(T_s\) = surface temperature  
-- \(T_\infty\) = surrounding fluid temperature  
+- **h** = heat transfer coefficient  
+- **A** = surface area  
+- **Tₛ** = surface temperature  
+- **T∞** = surrounding fluid temperature  
 
 ---
 
-## Conduction — Fourier’s Law
+### Conduction — Fourier’s Law
 
-\[
-q = \frac{kA(T_1 - T_2)}{L}
-\]
+**q = kA (T₁ − T₂) / L**
 
 Where:
 
-- \(k\) = thermal conductivity  
-- \(L\) = material thickness  
+- **k** = thermal conductivity  
+- **L** = material thickness  
 
 ---
 
-## Heat Flux Form
+### Heat Flux Form
 
-\[
-q'' = \frac{k(T_1 - T_2)}{L}
-\]
+**q'' = k (T₁ − T₂) / L**
 
-\[
-q'' = h(T_s - T_\infty)
-\]
+**q'' = h (Tₛ − T∞)**
 
-These expressions are used when heat transfer is evaluated **per unit surface area**.
+These equations describe heat transfer **per unit surface area**.
 
 ---
 
-# Thermal Resistance Model
+## Thermal Resistance Model
 
-Heat transfer through multiple layers can be simplified using **thermal resistance networks**.
+Thermal systems can be modeled using **resistance networks**.
 
-### Conduction Resistance
+Conduction resistance:
 
-\[
-R_{cond} = \frac{L}{kA}
-\]
+**R_cond = L / (kA)**
 
-### Convection Resistance
+Convection resistance:
 
-\[
-R_{conv} = \frac{1}{hA}
-\]
+**R_conv = 1 / (hA)**
 
-### Total Thermal Resistance
+Total resistance:
 
-\[
-R_{total} = R_{cond} + R_{conv}
-\]
+**R_total = R_cond + R_conv**
 
-### Heat Transfer Rate
+Heat transfer rate:
 
-\[
-q = \frac{T_{hot} - T_{cold}}{R_{total}}
-\]
-
-This approach simplifies the analysis of **multi-layer thermal systems**.
+**q = (T_hot − T_cold) / R_total**
 
 ---
 
-# Engineering Observations
+## Engineering Observations
 
-## Effect of Insulation
+### Effect of Insulation
 
 Adding insulation increases **conduction resistance**, reducing heat transfer to the environment.
 
-This leads to:
+Benefits:
 
-- Reduced heat loss
-- Lower energy consumption
-- Improved energy efficiency
-
-This principle explains why **thermal insulation is essential in water heater design**.
+- Reduced heat loss  
+- Lower energy consumption  
+- Improved system efficiency  
 
 ---
 
-## Surface Area Effects
+### Surface Area Effects
 
 Heat loss from the cylindrical heater occurs through:
 
-- Side wall surface
-- Top surface
+- Side wall surface  
+- Top surface  
 
-Total heat transfer depends directly on surface area:
+Heat transfer increases with area:
 
-\[
-q \propto A
-\]
-
-Larger surface areas result in **greater heat loss**.
+**q ∝ A**
 
 ---
 
-## Heater Temperature Limits
+### Heater Temperature Limits
 
-For the thin-film heater, allowable heat flux is constrained by the **maximum allowable heater temperature**.
+The thin-film heater is limited by its **maximum allowable temperature**.
 
 Temperature rise through conduction:
 
-\[
-\Delta T = \frac{q''L}{k}
-\]
+**ΔT = q'' L / k**
 
-Excessive heat flux can cause the heater temperature to exceed material limits, leading to **potential failure**.
+Excess heat flux can cause **material failure**.
 
 ---
 
-# Design Implications
+## Design Implications
 
-Several engineering strategies can improve thermal performance.
+Possible improvements:
 
-### Increase Convection Coefficient
+**Increase convection coefficient**
 
-Increasing fluid velocity or improving cooling conditions raises \(h\), improving heat removal.
+Increasing fluid velocity raises **h**, improving heat removal.
 
-### Increase Material Conductivity
+**Use higher conductivity materials**
 
-Higher thermal conductivity materials reduce conduction resistance and increase heat transfer.
+Higher **k** reduces conduction resistance.
 
-### Reduce Wall Thickness
+**Reduce wall thickness**
 
-Reducing thickness lowers thermal resistance and improves heat transfer capability.
+Lower **L** increases heat transfer capability.
 
 ---
 
-# Engineering Takeaways
+## Engineering Takeaways
 
-This project demonstrates how heat transfer theory applies to real engineering systems.
-
-Key lessons include:
-
-- Insulation dramatically reduces thermal energy losses
-- Thermal resistance networks simplify multi-layer heat transfer analysis
-- Heat transfer rates depend strongly on geometry and material properties
+- Insulation dramatically reduces thermal energy losses  
+- Thermal resistance networks simplify multi-layer analysis  
+- Heat transfer depends strongly on **geometry and material properties**  
 - Thermal design must balance **performance, efficiency, and material limits**
 
 ---
 
-# Project Reflection
+## Project Reflection
 
 This work demonstrates the ability to:
 
-- Model real systems using **first-principles heat transfer equations**
-- Apply **conduction and convection theory** to engineering problems
-- Use **thermal resistance methods** to analyze layered systems
-- Interpret analytical results in terms of **engineering design decisions**
+- Apply **first-principles heat transfer equations**
+- Model conduction and convection processes
+- Use **thermal resistance methods** for layered systems
+- Interpret results in terms of **engineering design decisions**
