@@ -6,17 +6,15 @@ image: /assets/images/HeatT_HW.png
 pdf: /assets/HeatT_HW.pdf
 ---
 
-# Heat Transfer Analysis – Problem Set 2
-
 ## Overview
+
 
 This project analyzes **steady-state heat transfer** in two engineering systems:
 
-- A **cylindrical electric water heater** losing heat to the surrounding air through convection  
-- A **thin-film heater embedded in a wall** transferring heat through conduction and convection  
+1. A **cylindrical electric water heater** losing heat to the surrounding air through convection  
+2. A **thin-film heater embedded in a wall** transferring heat through conduction and convection  
 
 The objective was to apply fundamental heat transfer principles to determine:
-
 - Required heating power
 - Effects of insulation
 - Limits imposed by material temperature constraints
