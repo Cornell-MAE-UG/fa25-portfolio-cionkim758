@@ -2,7 +2,7 @@
 layout: project
 title: Heat Transfer
 description: Steady-state heat transfer analysis of a water heater and thin-film heater system
-image: /assets/images/HeatT_HW.png
+image: /assets/images/FEA Wrench Total Deformation.png
 pdf: /assets/HeatT_HW.pdf
 ---
 

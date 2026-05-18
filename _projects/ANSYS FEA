@@ -1,0 +1,73 @@
+---
+layout: project
+title: Bike Frame Design and Structural Optimization
+description: Shell FEA and parametric optimization of an e-bike-share frame
+technologies: [Autodesk Fusion, ANSYS Mechanical, Finite Element Analysis, Response Surface Optimization]
+image: /assets/images/Bike_frame_1.png
+pdf: /assets/ANSYS_Simulations_Bike_frame_design.pdf
+---
+
+# Design and Structural Optimization of a Bike Frame for Bike-Share Deployment
+
+**ANSYS Simulation Project — Bike Frame Design Report**  
+**Focus:** lightweight structural design, shell FEA, safety factor verification, and parametric optimization
+
+---
+
+## 🔹 One-Screen Summary
+
+I designed and analyzed an e-bike frame intended for bike-share deployment, balancing **accessibility, safety, durability, weight, and cost**. The project started with a conventional bicycle frame, then modified it into a more accessible **step-through e-bike frame** by removing the top tube and adding battery loading.
+
+I used shell finite element modeling in ANSYS to compare the original and modified geometries, then performed a parametric optimization on tube thickness to reduce mass while maintaining a minimum safety factor above 2.
+
+**Key outcomes:**
+
+* Modeled the bike frame using shell elements for thin-walled tube behavior
+* Compared baseline and step-through e-bike frame designs
+* Verified deformation, equivalent stress, and safety factor trends
+* Ran response surface optimization over tube thicknesses from 2–4 mm
+* Selected a mass-minimizing design while keeping safety factor above the required threshold
+
+---
+
+## 1. Project Motivation
+
+The goal was to design a bike frame suitable for large-scale bike-share or consumer e-bike deployment.
+
+A bike-share e-bike frame needs to be:
+
+* Lightweight enough for practical deployment
+* Safe under rider and component loading
+* Durable for repeated public use
+* Affordable to manufacture
+* Easy to mount and dismount for different users
+
+This made the project more than just an FEA exercise. It became a design tradeoff between **structural performance and real-world usability**.
+
+---
+
+## 2. Baseline Frame Analysis
+
+The first step was analyzing a conventional bicycle frame geometry.
+
+The baseline frame included:
+
+* Top tube
+* Down tube
+* Seat tube
+* Chain stays
+* Seat stays
+
+The goal of this baseline analysis was to understand how the original triangular frame structure carried load before modifying the design.
+
+![Baseline bike frame FEA model]({{ "/assets/images/bike-frame-baseline-model.png" | relative_url }}){: .inline-image-r style="width: 300px" }
+
+### Baseline FEA Setup
+
+```text
+Material: Aluminum alloy
+Element type: Shell elements
+Tube thickness: 2 mm
+Element size: 4 mm
+Mesh: 16,826 nodes / 16,832 elements
+Approximate DOF: 100,956
